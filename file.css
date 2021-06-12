@@ -1,0 +1,86 @@
+/* IMMAGINE BACKGROUND */
+#background {
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+ /* BOX */
+.box{
+  border-radius: 25px;
+  background-color: #73AD21;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 50px;
+
+
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+/* LOGO and SLOGAN*/
+#logo{
+  display: block;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.slogan{
+  text-align: center;
+  /* Font Style */
+  font-weight: bold;
+  font-size: 150%;
+  font-family: sans-serif;
+  color: #00d409;
+}
+
+/* MENU */
+nav{
+  background-color: #00d409;
+  padding: 12px;
+}
+#menu{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+}
+/* OPZIONI */
+.margineopzioni {
+  margin-top: 15px;
+}
+/* Nomi Opzioni */
+.nomi{
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+}
+/* Info Opzioni */
+.arrow:before{
+  content: "\21A6";
+  color: white;
+}
+.testoinfo{
+  color: white;
+  /* CARICA */
+}
+.carica{
+  border-radius: 25px;
+}
+.carica.media {
+  background-color: #ffb84f;
+  width: 400px;
+  height: 20px;
+}
+.carica.alta {
+  background-color: #189a1c;
+  width: 780px;
+  height: 20px;
+}
+.carica.bassa {
+  background-color: #cc1111;
+  width: 200px;
+  height: 20px;
+}
